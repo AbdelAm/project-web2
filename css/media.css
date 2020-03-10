@@ -1,0 +1,33 @@
+@media (min-width: 320px) and (max-width: 1279px) {
+
+/*                             Start Of Section1                                   */
+
+    #sec1 .skills {
+        padding-left: 30px;
+    }
+    
+/*                             End Of Section1                                     */
+/*                              Start Of Section3                                   */
+
+    #sec3 .left {
+        height: 590px;
+        margin: 40px 41px 0;
+    }
+    .left h2 {
+        font-size: 30px;
+    }
+    .left button {
+        margin-top: 30px;
+    }
+
+/*                               End Of Section3                                     */
+/*                              Start Of Section5                                    */
+
+    .about p {
+        line-height: 1.4;
+    }
+    .contact .icone5 {
+        margin: 0 12px 0;
+    }
+
+/*                               End Of Section5                                      */

@@ -1,0 +1,320 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    padding: auto;
+}
+.container {
+    width: 85%;
+    height: 95%;
+    margin: auto;
+}
+h1 {
+    margin: 0;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF HEADER "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+header {
+    width: 100%;
+    height: 660px;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.5)), url(../img/1f9390d469d5.880x550.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+               /* >>>>>>>>>>>>>>>>>>>>>>>>> "" START OF NAVBAR "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+header nav {
+    width: 100%;
+    height: 90px;
+}
+nav h2 {
+    float: left;
+    font-size: 40px;
+    padding-top: 20px;
+    letter-spacing: 8px;
+    color: #fff;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+}
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+ul li {
+    margin: 35px 25px;
+    width: 15%;
+}
+nav a:hover {
+    background-color: #28e486;
+}
+
+               /* >>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SLIDER "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+header .slider {
+    width: 100%;
+    height: 540px;
+    padding-top: 80px;
+    text-align: center;
+}
+.slider h1 {
+    font-size: 50px;
+    line-height: 2;
+    color: #fff;
+}
+.slider .icone1 {
+    font-size: 50px;
+    color: #fff;
+    background-color: #28e486;
+    padding: 12px 15px 5px;
+    border-radius: 50%;
+    line-height: 4.5;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SECTION 1 "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#sec1 {
+    width: 100%;
+    height: 430px;
+    text-align: center;
+}
+#sec1 .work {
+    width: 33.333333%;
+    height: 250px;
+    float: left;
+    padding-top: 50px;
+}
+.work .icone2 {
+    font-size: 40px;
+    color: #49b289;
+    line-height: 2;
+}
+.work h3 {
+    color: #fff;
+    line-height: 2;
+}
+.work strong {
+    color: #49b289;
+}
+#sec1 .skills {
+    width: 50%;
+    height: 430px;
+    float: left;
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    padding: 50px 0 0 150px;
+}
+.skills h2 {
+    font-size: 30px;
+    line-height: 1.5;
+}
+.skills .icone3 {
+    font-size: 25px;
+    color: #fff;
+    background-color: #28e486;
+    border-radius: 50%;
+    padding: 6px 10px 5px;
+    margin:0 20px 0 55px;
+    line-height: 2.5;
+}
+.skills button {
+    width: 35%;
+    height: 45px;
+    color: #fff;
+    background-color: #28e486;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+}
+#sec1 img {
+    width: 50%;
+    height: 430px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SECTION 2 "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#sec2 {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)), url(../img/7940537bc87a.978x550.jpeg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    padding-top: 65px;
+    overflow: hidden;
+}
+#sec2 h1 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 2;
+    letter-spacing: 4px
+}
+#sec2 button {
+    width: 15%;
+    height: 50px;
+    color: #fff;
+    background-color: #28e486;
+    border: none;
+    border-radius: 4px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SECTION 3 "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#sec3 {
+    width: 100%;
+    height: 985px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #28e486;
+}
+#sec3 h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#sec3 h3 {
+    color: #a3e8b9;
+    font-size: 30px;
+}
+#sec3 .left {
+    width: 40%;
+    height: 580px;
+    float: left;
+    text-align: left;
+    background-color: #fff;
+    margin: 40px 57px 0;
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.6);
+}
+.left img {
+    width: 100%;
+    height: 260px;
+}
+.left h2 {
+    line-height: 2.8;
+    padding: 0 0 0 25px;
+    font-size: 35px;
+}
+.left p {
+    line-height: 1.8;
+    padding: 0 0 0 25px;
+    color: #a7a7a7;
+    font-size: 20px;
+}
+.left button {
+    width: 35%;
+    height: 45px;
+    background-color: #2d2d39;
+    color: #49b289;
+    margin: 40px 25px 0;
+    border: none;
+    border-radius: 5px;
+}
+#sec3 .icone4 {
+    font-size: 50px;
+    color: #49b289;
+    background-color: #fff;
+    padding: 12px 20px 5px;
+    border-radius: 50%;
+    line-height: 4;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SECTION 4 "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#sec4 {
+    width: 100%;
+    height: 380px;
+    text-align: center;
+    background-color: #2d2c3c;
+    padding-top: 80px;
+}
+#sec4 h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 0;
+    line-height: 2;
+    color: #fff;
+}
+#sec4 h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #fff;
+}
+#sec4 button {
+    width: 15%;
+    height: 50px;
+    margin: 60px 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF SECTION 5 "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#sec5 {
+    width: 100%;
+    height: 350px;
+}
+#sec5 .about {
+    width: 60%;
+    height: 300px;
+    float: left;
+    padding: 80px 40px;
+    text-align: left;
+}
+.about h2 {
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+.about p {
+    line-height: 2;
+    margin-top: 20px;
+    color: #999;
+    font-size: 18px;
+}
+p span {
+    color: #a8e2c9;
+}
+#sec5 .contact {
+    width: 35%;
+    height: 300px;
+    float: right;
+    padding: 75px 25px;
+    text-align: left;
+}
+.contact .icone5 {
+    font-size: 30px;
+    float: left;
+    margin: 0 20px 0;
+    line-height: 2.5;
+}
+.contact h4 {
+    line-height: 2;
+    margin-left: 20px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> "" START OF FOOTER "" <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #282c35;
+    padding-top: 44px;
+}
+footer p {
+    float: left;
+    color: #fff;
+}
+footer a {
+    color: #49b289;
+    text-decoration: none;
+    float: right;
+}
